@@ -5,7 +5,6 @@ const Home = () => {
     return (
         <div className="relative" style={{ backgroundImage: "url('https://i.ibb.co/4dfmnNW/pngtree-portfolio-memphis-playful-abstract-pink-image-593412.jpg')", backgroundSize: "cover", backgroundPosition: "center", height: "400px" }}>
 
-            {/* <img src="https://i.ibb.co/GWXdbGF/80908-electric-blue-design-pixel-atmosphere-line-x750.jpg" alt="" /> */}
               <div className=" absolute flex justify-between items-center pl-10">
                 <div>
                     <h1 className="text-4xl font-bold mb-3"> Hi there, <br /> i am Naymul islam</h1>
