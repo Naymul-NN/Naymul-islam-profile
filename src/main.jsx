@@ -12,6 +12,7 @@ import Home from './home/Home';
 // import Contact from './contact/Contact';
 import AboutMe from './about/AboutMe';
 import ContactMe from './navbar/ContactMe';
+import Blog from './blog/Blog';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path:"/about",
         element:<AboutMe></AboutMe>
+      },
+      {
+        path:"/blog",
+        element:<Blog></Blog>
       },
       {
         path:"/contactme",
