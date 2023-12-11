@@ -9,8 +9,9 @@ import {
 import Layout from './layout/Layout';
 import Home from './home/Home';
 // import About from './about/About';
-import Contact from './contact/Contact';
+// import Contact from './contact/Contact';
 import AboutMe from './about/AboutMe';
+import ContactMe from './navbar/ContactMe';
 
 const router = createBrowserRouter([
   {
@@ -26,8 +27,8 @@ const router = createBrowserRouter([
         element:<AboutMe></AboutMe>
       },
       {
-        path:"/contact",
-        element:<Contact></Contact>
+        path:"/contactme",
+        element:<ContactMe></ContactMe>
       }
     ]
   },
