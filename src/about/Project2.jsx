@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 import img4 from "../assets/Screenshot (50).png"
 import img5 from "../assets/Screenshot (51).png"
 import img6 from "../assets/Screenshot (52).png"
+import { FaGithub } from "react-icons/fa6";
+
 
 const Project2 = () => {
     return (
-        <div>
-            
-
+        <div>    
             <div className="flex justify-between items-center gap-4">
                 <div className="flex-1 pt-10 ">
                     <Carousel autoPlay infiniteLoop   >
@@ -37,7 +37,7 @@ const Project2 = () => {
                 </div>
 
             </div>
-
+             <h1 className="pt-7 text-center flex justify-center items-center"> <Link to="https://github.com/Naymul-NN"> <button className="btn bg-slate-400 hover:bg-orange-400 "><div className="flex justify-center items-center"><h1>see more</h1> <FaGithub className="text-2xl pl-2"></FaGithub></div> </button></Link></h1>
         </div>
     );
 };

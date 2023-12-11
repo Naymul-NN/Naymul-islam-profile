@@ -3,6 +3,7 @@
 import About from "../about/About";
 import Project from "../about/Project";
 import Project2 from "../about/Project2";
+import Socilalink from "./Socilalink";
 
 const Home = () => {
 
@@ -34,6 +35,8 @@ const Home = () => {
             <Project></Project>
             <div className="divider"></div> 
             <Project2></Project2>
+            <div className="divider"></div> 
+            <Socilalink></Socilalink>
         </div>
     );
 };
