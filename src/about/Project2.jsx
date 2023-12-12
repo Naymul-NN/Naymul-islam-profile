@@ -9,7 +9,7 @@ import { FaGithub } from "react-icons/fa6";
 const Project2 = () => {
     return (
         <div>    
-            <div className="flex justify-between items-center gap-4">
+            <div className="lg:flex grid grid-cols-1 justify-between items-center gap-4">
                 <div className="flex-1 pt-10 ">
                     <Carousel autoPlay infiniteLoop   >
                         <div>

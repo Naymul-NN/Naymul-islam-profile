@@ -3,13 +3,9 @@ import Navbar from "../navbar/Navbar";
 
 const Layout = () => {
     return (
-        <div >
+        <div className="w-[90%] mx-auto">
             <Navbar></Navbar>
-            <div className="w-[90%] mx-auto">
             <Outlet></Outlet>
-            </div>
-           
-            
         </div>
     );
 };

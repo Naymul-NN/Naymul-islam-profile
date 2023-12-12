@@ -5,26 +5,26 @@ import { IoMdMail } from "react-icons/io";
 
 const ContactMe = () => {
     return (
-        <div className=" flex ">
+        <div className=" lg:flex grid grid-cols-1 gap-3 pt-[70px]">
             <div className="flex-1">
                 <p>Please enter your details and message below to send your enquires . I will always <br/> replay your message swiftly.</p>
                 <form action="https://formspree.io/f/mknldkbb" method="POST">
                     <div className="py-5">
                         <label>
 
-                            <input className="border w-[80%]" type="text" name="name" placeholder="type your name" />
+                            <input className="border w-full lg:w-[80%]" type="text" name="name" placeholder="type your name" />
                         </label>
                     </div>
                     <div>
                         <label>
 
-                            <input className="border w-[80%]" type="email" name="email" placeholder="your email" />
+                            <input className="border w-full lg:w-[80%]" type="email" name="email" placeholder="your email" />
                         </label>
                     </div>
                     <div className="pt-10 pb-7">
                         <label>
 
-                            <textarea className="border w-[80%] h-32 text-white placeholder-orange-500 bg-indigo-950" name="message" placeholder="your massege" />
+                            <textarea className="border w-full lg:w-[80%] h-32 text-white placeholder-orange-500 bg-indigo-950" name="message" placeholder="your massege" />
                         </label>
                     </div>
                     <button className="btn bg-slate-400 hover:bg-orange-400" type="submit">Submit</button>

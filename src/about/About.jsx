@@ -30,7 +30,7 @@ const About = () => {
                     />
 
                 </h1>
-                <p className="w-full rounded-xl h-[100px] bg-gradient-to-r from-blue-100 via-purple-500 to-green-300  flex justify-center items-center">A passionate front-end developer dedicated to crafting engaging and seamless digital experiences. With a background in 2 year learn programing , I thrive on turning creative ideas into functional, user-friendly websites. My expertise lies in harnessing the power of HTML, CSS, and JavaScript to bring designs to life.
+                <p className="w-full rounded-xl p-3 lg:h-[100px] bg-gradient-to-r from-blue-100 via-purple-500 to-green-300  flex justify-center items-center">A passionate front-end developer dedicated to crafting engaging and seamless digital experiences. With a background in 2 year learn programing , I thrive on turning creative ideas into functional, user-friendly websites. My expertise lies in harnessing the power of HTML, CSS, and JavaScript to bring designs to life.
                 </p>
             </div>
             <div>

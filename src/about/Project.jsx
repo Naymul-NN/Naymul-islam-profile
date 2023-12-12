@@ -11,7 +11,7 @@ const Project = () => {
     return (
         <div >
           <h1 className="text-3xl text-center mb-5 pb-3 w-96 mx-auto font-bold border-b-2 mt-7 border-b-red-500">Some of my projects</h1>
-          <div className="flex justify-between items-center gap-4">
+          <div className="lg:flex grid grid-cols-1 justify-between items-center gap-4">
             <div className="flex-1 items-center">
              <h1><strong>Name:</strong><Link to="https://tourbd.surge.sh/"> TourBd.COM </Link> </h1>
              <p className="py-3"><strong>About the project:</strong> This is a Tour management website , if anyone want to visit Bangladesh.Then he/she can book a package from your website we plane here , where he/she will taravel. On this website i make three role one is ADMIN second is guide last is user , there is a dashbord , everyone  see his/her dashbord by his/her role . some of your website feature you can see on the right side </p>
